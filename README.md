@@ -21,7 +21,6 @@ This project is a simple Python console application that reads mutual fund NAV d
 From a terminal (PowerShell on Windows), run:
 
 ```bash
-cd C:\Harsh\code\MutualFund
 pip install pandas
 ```
 
@@ -42,11 +41,6 @@ If you have multiple Python versions, you may need to use `pip3` instead of `pip
 
 1. **Open PowerShell** (or any terminal) on your system.
 2. **Navigate to the project folder**:
-
-   ```bash
-   cd C:\Harsh\code\MutualFund
-   ```
-
 3. **(First time only) Install dependencies**:
 
    ```bash
@@ -84,5 +78,6 @@ If you have multiple Python versions, you may need to use `pip3` instead of `pip
 
 - If the CSV has invalid dates or NAV values, those rows are skipped and a short message is printed.  
 - You can point the program to any other CSV file with the same column format by entering its path when prompted.
+
 
 
